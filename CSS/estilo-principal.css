@@ -1,0 +1,67 @@
+
+header{
+    background-color: #52280f;
+    text-align: center;
+    padding: 15px 0;
+}
+
+nav a{
+    display: inline-block;
+    text-decoration: none;
+    color: #fff;
+    margin: 0 25px;
+    padding: 5px 15px;
+    border-radius: 30px;
+}
+nav a :hover{
+    background-color: #000;
+    color: #fff;
+}
+
+.encabezado-img{
+    background-image: url(../img/paisaje.png);
+    background-repeat: repeat-x;
+    height: 900px;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+}
+.bandera{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.pie-pagina{
+    height: 4rem;
+    background-color: #434849;
+    color: #fff;
+    text-align: center;
+}
+
+.tarjeta-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    margin: 20px; 
+}
+
+.tarjetas-container {
+    display: flex; 
+    justify-content: center; 
+    gap: 20px; 
+    margin: 20px 0; 
+}
+.carousel {
+    height: 50%;
+    width: 50%; /* Cambia este valor según sea necesario */
+    margin: auto; /* Centra el carrusel en la página */
+}
+.titulo-datos{
+    display: flex; 
+    justify-content: center; 
+}
